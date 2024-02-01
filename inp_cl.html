@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="fm.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>ADD CRIMINAL</h1>
+          </div>
+          <div class="panel-body">
+            <form action="inp_cl.php" method="post">
+
+              <div class="form-group">
+                <label for="cid">CRIMINAL ID</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="cid"
+                  name="cid"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="Name"> ENTER NAME</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Name"
+                  name="Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="age">ENTER AGE</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="age"
+                  name="age"
+                />
+              </div>
+              <div class="form-group">
+                <label for="crid">IPC SECTION</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="crid"
+                  name="crid"
+                />
+              </div>
+              <div class="form-group">
+                <label for="pdate">Date Of Imprison</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="pdate"
+                  name="pdate"
+                />
+              </div>
+              
+              
+            
+              
+              <button type="submit" class="btn btn-primary">SUBMIT</button>
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+            <small>&copy; 77</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    
+    <strong class="mr-auto"></strong>
+    <small></small>
+    
+  </div>
+  <div class="toast-body">
+   ADD CRIMINAL DETAILS IN DATABASE
+  </div>
+</div>
+  </body>
+</html>

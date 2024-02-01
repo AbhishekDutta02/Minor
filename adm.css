@@ -1,0 +1,86 @@
+body
+{
+
+		
+	background-image: linear-gradient(orange,white ,green );
+	background-repeat: no-repeat;
+    height:680px;
+	
+}
+img{
+	position: absolute;
+    top:300px;
+    left:615px;
+    width:300px;
+   
+
+}
+h{
+	background-color: red;
+    color:blue;
+    border:5px solid blue;
+    box-shadow: 4px 4px darkblue;
+    font-size: 50px;
+	position: absolute;
+	left: 600px;
+}
+
+
+		
+
+
+
+h1{
+    background-color: WHITE;
+    color:BLACK;
+    padding: 60px 55px;
+    border:5px solid blue;
+    box-shadow: 4px 4px darkblue;
+    font-size: 25px;
+    position: absolute;
+    background-color: azure;
+    left: 200px;
+    top: 200px ;
+}
+
+h2 {
+    background-color: WHITE;
+    color:BLACK;
+    padding: 60px 10px;
+    border:5px solid blue;
+    box-shadow: 4px 4px darkblue;
+	position: absolute;
+    background-color: azure;
+	left:950px;
+	top:200px;
+	font-size: 25px;
+}
+
+h3{
+    background-color:WHITE;
+    color:black;
+    padding: 60px 81px;
+    border:5px solid blue;
+    box-shadow: 4px 4px darkblue;
+	font-size: 25px;
+	position: absolute;
+    background-color: azure;
+	left: 200px;
+	top: 400px 
+
+}
+
+h4{
+    background-color:white;
+    color:black;
+    padding: 60px 35px;
+    border:5px solid blue;
+    box-shadow: 4px 4px darkblue;
+	font-size: 25px;
+	position: absolute;
+    background-color: azure;
+	left:950px;
+	top: 400px ;
+
+}
+

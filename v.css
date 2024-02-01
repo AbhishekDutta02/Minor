@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(223, 250, 69);
+    
+}
+table{
+    top:50%;
+left:50%;
+position: absolute;
+transform:translate(-50%,-50%);
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    width:500px;
+}
+
+th{
+    font-size: 30px;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+}

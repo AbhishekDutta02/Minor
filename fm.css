@@ -1,0 +1,55 @@
+body{
+    background: url(adm.jpg);
+    background-size: cover;
+    background-position:center ;
+    
+
+}
+.container{
+width: 320px;
+height: 550px;
+background:rgba(0, 0, 0, 0.5);
+color: #fff;
+top:50%;
+left:50%;
+position: absolute;
+transform:translate(-50%,-50%);
+box-sizing: border-box;
+border-radius:5px ;
+}
+
+button{
+    
+    color:#fff;
+    background: blue;
+    margin-top:50px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 3px #337ab7;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+.panel-body{
+    text-align: center;
+    margin:30px;
+    font-size: 20px;
+    color:lightyellow;
+}
+
+input{
+    margin-bottom:20px;
+}
+.toast-body{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightyellow;
+    border: 2px solid yellow;
+}
