@@ -1,5 +1,13 @@
 body{
-    background: url(adm.jpg);
+
+		height: 800px;
+
+	background-color: #cabdbd;
+	background-image: linear-gradient(rgb(14, 2, 71),rgb(94, 60, 158) ,rgb(210, 210, 242) );
+	background-repeat: no-repeat;
+	
+
+    background-color: antiquewhite;
     background-size: cover;
     background-position:center ;
     
@@ -8,7 +16,7 @@ body{
 .container{
 width: 320px;
 height: 550px;
-background:rgba(0, 0, 0, 0.5);
+background:rgba(44, 44, 44, 0.5);
 color: #fff;
 top:50%;
 left:50%;
@@ -22,11 +30,12 @@ button{
     
     color:#fff;
     background: blue;
+    background-image: linear-gradient(rgb(127, 33, 33),rgb(156, 25, 25),rgb(252, 5, 5)  );
     margin-top:50px;
     width: 200px;
     height: 50px;
     border-radius: 10px;
-    box-shadow: 2px 3px #337ab7;
+    box-shadow: 2px 3px #05192b;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -47,9 +56,9 @@ h1{
 input{
     margin-bottom:20px;
 }
-.toast-body{
+/*.toast-body{
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: lightyellow;
     border: 2px solid yellow;
-}
+}*/

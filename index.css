@@ -5,7 +5,7 @@ body
 	
 	height: 650px;
 	background-color: #cabdbd;
-	background-image: linear-gradient(rgb(58, 11, 129),rgb(69, 72, 139) ,rgb(180, 182, 206) );
+	background-image: linear-gradient(orange,white ,green );
 	background-repeat: no-repeat;
 	
 }
